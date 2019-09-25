@@ -8,7 +8,7 @@ import java.util.Date;
  * @author EDZ
  */
 public class Orders implements Serializable{
-	
+	//这是文件修改
 	private Integer id;
 	private String remark;
 	private Date odate;

@@ -9,6 +9,7 @@ import java.util.Date;
  */
 public class Orders implements Serializable{
 	//这是文件修改
+	//
 	private Integer id;
 	private String remark;
 	private Date odate;
@@ -38,5 +39,8 @@ public class Orders implements Serializable{
 		this.total = total;
 	}
 	
+	public void show() {
+		
+	}
 	
 }
